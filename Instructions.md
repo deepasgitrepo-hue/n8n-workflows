@@ -21,6 +21,13 @@ Add the following environment variables to your `docker-compose.yml` file:
       - N8N_PROXY_HOPS=1
 ```
 
+Once the update is done, run the following command to restart the docker
+
+```
+docker compose down
+docker compose up -d
+```
+
 # Tech Trend Agent
 
 ## Prompt: Agent - Tech Trends Extractor
